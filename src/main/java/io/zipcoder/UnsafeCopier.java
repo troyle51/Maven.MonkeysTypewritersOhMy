@@ -10,5 +10,9 @@ public class UnsafeCopier extends Copier {
     }
 
     public void run() {
+        while(stringIterator.hasNext()){
+            System.out.print(stringIterator.next() + " ");
+        }
+
     }
 }
